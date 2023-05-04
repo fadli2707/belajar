@@ -18,6 +18,7 @@
                         <table class="table table-striped">
                           <tr>
                             <th class="text-danger">No</th>
+                            <th>ID</th>
                             <th>Buku</th>
                             <th>Kategori</th>
                             <th>Penulis</th>
@@ -33,6 +34,14 @@
                             <td>{{$d->penulis_buku}}</td>
                             <td>{{$d->penerbit_buku}}</td>
                             <td>{{$d->tahun_penerbit}}</td>
+                        <td>{{$k+1}}</td> 
+                        <td>{{$d->id_buku}}</td>
+                        <td>{{$d->kategori}}</td>
+                        <td>{{$d->judul_buku}}</td>
+                        <td>{{$d->penulis_buku}}</td>
+                        <td>{{$d->penerbit_buku}}</td>
+                        <td>{{$d->tahun_penerbit}}</td>
+  
                           </tr>
                           @endforeach
                         </table>

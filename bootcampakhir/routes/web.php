@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+
     return view('welcome');
 });
 
@@ -22,6 +23,7 @@ Route::get('/login', function () {
 });
 
 Route::get('dashboard', function () {
+
     return view('dashboard');
 });
 
@@ -41,6 +43,7 @@ Route::get('pengembalian', function () {
     return view('pengembalian');
 });
 
+
 Route::get('mahasiswa', function () {
     return view('mahasiswa');
 });
@@ -56,3 +59,5 @@ Route::get('/peminjaman', 'PeminjamanController@index');
 Route::get('/mahasiswa', 'MahasiswaController@index');
 Route::get('/petugas', 'PetugasController@index');
 Route::post('/postlogin', 'LoginController@postlogin')->name('postlogin');
+Route::get('/buku', 'BukuController@index');
+Route::get('/kategori', 'KategoriController@index');
