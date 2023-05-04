@@ -81,6 +81,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
+
+                    Perpustakaan
+                </div>
+
+                <div class="links">
+                    <a href="{{ url('dashboard') }}">Home</a>
+                </div>
+                <div class="links">
+                    <a href="{{ url('login') }}">Login</a>
                     Laravel
                 </div>
 

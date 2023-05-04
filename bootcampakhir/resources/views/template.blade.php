@@ -15,6 +15,9 @@ Coded by www.creative-tim.com
 <!DOCTYPE html>
 <html lang="en">
 
+
+@extends('head')
+
 <head>
   <meta charset="utf-8" />
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
@@ -34,10 +37,20 @@ Coded by www.creative-tim.com
   <link href="../assets/demo/demo.css" rel="stylesheet" />
 </head>
 
+
 <body class="">
   <div class="wrapper ">
     <div class="sidebar" data-color="white" data-active-color="danger">
       <div class="logo">
+
+        <a href="" class="simple-text logo-mini">
+          <div class="logo-image-small">
+            <img src="../assets/img/unilaklogo.png">
+          </div>
+          <!-- <p>CT</p> -->
+        </a>
+        <a href="" class="simple-text logo-normal">
+
         <a href="https://www.creative-tim.com" class="simple-text logo-mini">
           <div class="logo-image-small">
             <img src="../assets/img/logo-small.png">
@@ -45,6 +58,7 @@ Coded by www.creative-tim.com
           <!-- <p>CT</p> -->
         </a>
         <a href="https://www.creative-tim.com" class="simple-text logo-normal">
+
           Perpustakaan
           <!-- <div class="logo-image-big">
             <img src="../assets/img/logo-big.png">
