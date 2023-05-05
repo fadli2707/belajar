@@ -41,7 +41,5 @@
             </div>
           </div>
         </div>
-<div class="content">
-        <h1> Hello Pengembalian......</h1>
       </div>
 @endsection

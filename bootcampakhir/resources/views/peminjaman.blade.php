@@ -1,6 +1,5 @@
 @extends('template')
 @section('content')
-
 @extends('head')
 <div class="content">
       <div class="row">
@@ -42,7 +41,5 @@
             </div>
           </div>
         </div>
-<div class="content">
-        <h1> Hello Peminjaman......</h1>
       </div>
 @endsection
